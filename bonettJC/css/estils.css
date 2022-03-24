@@ -1,0 +1,341 @@
+body {
+  /*
+  background-image: url(../img/jc.jpg);
+  background-size:600px;
+  background-repeat: no-repeat;
+  */
+  background-color: #89d98a;
+}
+
+.cap {
+  width: 410px;
+  height: 650px;
+  background-color: #D8AF97;
+  margin: 0 auto;
+  border-radius:250px 250px 300px 300px;
+  box-shadow: inset 0px 100px 0px #000000;
+  border-style: groove;
+  border-color: black;
+
+}
+
+.cabellfront {
+  background: black;
+  width: 400px;
+  height: 85px;
+  top: 100px;
+  left: 6px;
+  position: relative;
+  border-radius:250px 250px 250px 290px;
+}
+
+
+
+.celles {
+  height: 80px;
+
+}
+
+
+.front {
+  height: 230px;
+  background:
+}
+
+.blanc {
+  width: 76px;
+  height: 76px;
+  background: white;
+  display: inline-block;
+  border-radius:0 80px;
+  transform: rotate(-45deg);
+  box-shadow: inset 0px 3px 5px #000000;
+
+}
+
+.pupila{
+  width: 13px;
+  height: 13px;
+  background: white;
+  border-radius: 50%;
+  position: relative;
+  left: 10px;
+  top: 5px;
+  box-shadow: inset 0px 0px 2px #000000;
+
+}
+.iris{
+  width: 40px;
+  height: 40px;
+  background: black;
+  display: inline-block;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+.esquerra{
+  float: left;
+}
+
+.dreta{
+  float: right;
+}
+
+.esquerra .blanc {
+  margin-left: 90px
+}
+
+.dreta .blanc {
+  margin-right: 80px
+}
+
+.cellaesq {
+  width: 125px;
+  height: 15px;
+  left:50px;
+  background: black;
+  border-radius: 50% 0 50% 0;
+  position: relative;
+  top: 47px;
+  transform: rotate(4deg);
+}
+
+.celladre {
+  width: 125px;
+  height: 15px;
+  left: 236px;
+  background: black;
+  border-radius: 40% 0 50% 0;
+  position: relative;
+  top: 61px;
+  transform: rotate(-1deg);
+
+}
+
+
+
+.orella{
+  width: 100px;
+  height: 150px;
+  background: #D8AF97;
+  border-radius: 100px/65px;
+}
+
+#oe {
+  position: relative;
+  left: -40px;
+  top:-70px;
+}
+
+#od {
+  position: relative;
+  left: 40px;
+  top:-70px;
+}
+#odp {
+  position: relative;
+  left: 135px;
+  top:55px;
+  background: #808080;
+  width: 30px;
+  height:30px;
+}
+#oep {
+  position: relative;
+  left:-285px;
+  top:55px;
+  background: #808080;
+  width: 30px;
+  height:30px;
+}
+
+
+
+
+#brillu {
+    position: relative;
+    left: 297px;
+    top:65px;
+    background: white;
+    width: 33px;
+    height:33px;
+    clip-path: polygon(6% 52%, 41% 43%, 50% 6%, 61% 43%, 97% 52%, 62% 61%, 51% 95%, 40% 61%);
+  	animation-name: rotation;
+  	animation-duration: 3s;
+  	animation-iteration-count: infinite;
+  	animation-timing-function: linear;
+  }
+
+  @keyframes rotation {
+    0% {
+      transform:rotate(0deg);
+    }
+    100% {
+      transform:rotate(360deg);
+    }
+  }
+
+
+
+.nas{
+  width: 4px;
+  height: 80px;
+  left: 220px;
+  position: relative;
+  top: 40px;
+
+}
+.nasdos{
+  background-color: #D8AF97;
+  width: 90px;
+  height: 90px;
+  left: -50px;
+  position: relative;
+  top: 75px;
+  clip-path: circle(50% at 50% 50%);
+  box-shadow: inset 0px 20px 0px #c29b86;
+
+}
+
+.boca{
+ background: #bc544b;
+ width: 150px;
+ height:35px;
+ position: relative;
+ top:130px;
+ left: 138px;
+ border-radius:  40% 40% 50% 50%;
+ box-shadow: inset 0px 5px 12px #000000;
+
+ }
+
+ .bocado{
+  background: #bc544b;
+  width: 150px;
+  height:22px;
+  position: relative;
+  top:-3px;
+  left: 0px;
+  border-radius: 50% 40% 50% 40%;
+  box-shadow: inset 0px 0px 8px #000000;
+ }
+
+.mask{
+  width: 400px;
+  height:255px;
+  position: relative;
+  background-color: #58b1ed;
+  top:-85px;
+  left: 4px;
+  border-radius: 30px 30px 180px 180px;
+  box-shadow: inset 0px 0px 16px #000000;
+
+}
+.mask:hover{
+  opacity:0;
+}
+.cordadreu{
+  width: 90px;
+  height:10px;
+  position: relative;
+  transform: rotate(75deg);
+  background: #1a5e8c;
+  top: 30px;
+  left: -45px;
+  border-radius: 10px 10px 10px 10px;
+
+}
+.cordadreu{
+  width: 95px;
+  height:10px;
+  position: relative;
+  transform: rotate(75deg);
+  background: #1a5e8c;
+  top: -44px;
+  left: -45px;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: inset 0px 0px 3px #000000;
+
+}
+.cordaesqu{
+  width: 100px;
+  height:10px;
+  position: relative;
+  transform: rotate(-75deg);
+  background: #1a5e8c;
+  top: -50px;
+  left: 350px;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: inset 0px 0px 3px #000000;
+
+}
+
+
+.cordabad{
+  width: 33px;
+  height:10px;
+  position: relative;
+  transform: rotate(-110deg);
+  background: #1a5e8c;
+  top: 65px;
+  left: -20px;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: inset 0px 0px 3px #000000;
+
+}
+
+.cordabaes{
+  width: 33px;
+  height:10px;
+  position: relative;
+  transform: rotate(110deg);
+  background: #1a5e8c;
+  top: 53px;
+  left: 388px;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: inset 0px 0px 3px #000000;
+
+}
+
+
+.pliegueu{
+  width: 300px;
+  height:250px;
+  position: relative;
+  background: #3c9cdd;
+  clip-path: polygon(3% 57%, 54% 72%, 97% 51%, 54% 61%);
+  transform: rotate(3deg);
+  top:-20px;
+  left: 50px;
+}
+.plieguedo{
+  width: 300px;
+  height:200px;
+  position: relative;
+  background: #3c9cdd;
+  clip-path: polygon(3% 63%, 51% 66%, 98% 55%, 51% 56%);
+  transform: rotate(3deg);
+  top: -290px;
+  left: 50px;
+}
+.plieguetre{
+  width: 300px;
+  height:200px;
+  position: relative;
+  background: #3c9cdd;
+  top: -520px;
+  left: 50px;
+  clip-path: polygon(1% 52%, 50% 52%, 96% 51%, 49% 44%);
+}
+
+.barbilla{
+  width: 60px;
+  height: 60px;
+  top:170px;
+  left: 185px;
+  position: relative;
+  background-color:transparent;
+  border-radius: 20px;
+  box-shadow: 5px 0px 0px 0px #be9c88;
+  transform: rotate(-90deg);
+}

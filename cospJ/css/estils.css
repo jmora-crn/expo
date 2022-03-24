@@ -1,0 +1,700 @@
+body{
+
+}
+
+h1{
+  text-align: center;
+  font-size: 25px;
+  line-height: 30px;
+  padding-top: 5px;
+  color: red;
+  font-family: helvetica, arial, sans-serif;;
+  animation-name: moviment;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.info{
+  background-image: linear-gradient(#5C5B58, #9E9E9E, #FEFEFE, #BDBDBE, #707071, #535455);
+  border-image: -webkit-radial-gradient(#535455, #707071, #BDBDBE, #FEFEFE, #9E9E9E, #5C5B58) 1 10;
+  width: 200px;
+  height: 100px;
+  position: absolute;
+  top: 500px;
+  border-radius: 50px;
+}
+
+@keyframes moviment{
+  0% {filter: opacity(0%); text-shadow: 0 0 0; red}
+  50% {filter: opacity(50%); text-shadow: 0 0 0.2em red, 0 0 0.2em red}
+  99% {filter: opacity(100%); text-shadow: 0 0 0.2em red, 0 0 0.2em red}
+  100% {filter: opacity(0%); text-shadow: 0 0 0.2em red, 0 0 0.2em red}
+}
+
+.cap{
+  width: 600px;
+  height: 500px;
+  background-color: #fdddca;
+  margin: 300px 0 0 300px;
+  border-radius: 27% 27% 0 0;
+}
+
+.ceesquerra{
+  position: absolute;
+  top: 0px;
+  left: 1210px;
+  transform: rotateY(180deg);
+}
+
+.celles{
+  z-index: -50000000000000000;
+}
+
+.partu{
+  width: 120px;
+  height: 30px;
+  background-color: #43260a;
+  border-radius: 30% 0 50% 0;
+  position: absolute;
+  top: 350px;
+  left: 410px;
+}
+
+.partdos{
+  width: 120px;
+  height: 120px;
+  background-color: #43260a;
+  border-radius: 50%;
+  position: absolute;
+  top: 350px;
+  left: 374px;
+}
+
+.partres{
+  width: 200px;
+  height: 120px;
+  background-color: #fdddca;
+  border-radius: 50%;
+  position: absolute;
+  top: 370px;
+  left: 374px;
+}
+
+.ulls{
+  position: relative;
+  top: 50px;
+  left: 42px;
+  z-index: 1000000;
+}
+
+.barbeta{
+  width: 0px;
+  height: 0px;
+  background-color:  ;
+  margin: 80px 0 0 20px;
+  border: solid 300px #fdddca;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+}
+
+/*
+.barbeta::before {
+  content:"";
+  display: block;
+  width: 300px;
+  height: 300px;
+  background: #fdddca;
+  border-radius: 0 312px 0 312px;
+  top: 0;
+  left:0;
+  z-index: 500000000000000000000000000000;
+  transform-origin: top left;
+  transform: rotate(-90deg)
+}
+*/
+
+.esquerra{
+  width: 150px;
+  height: 210px;
+  background-color: white;
+  border-radius: 50%;
+  position: relative;
+  margin-left: 50px;
+}
+
+.iris{
+  width: 100px;
+  height: 160px;
+  background-color: #3e762d;
+  border-radius: 50%;
+  position: absolute;
+  top: 50px;
+  left: 30px;
+  border: solid 2px black;
+  position: relative;
+}
+
+.brillo{
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 44px;
+  left: 24px;
+  z-index: 100000;
+}
+
+.pupila{
+  width: 50px;
+  height: 110px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  top: 50px;
+  left: 30px;
+}
+
+#segon{
+  transform: rotateY(180deg);
+  margin-left: 100px;
+  box-shadow:
+}
+
+.ulls{
+  float: left;
+  display: inline-flex;
+  margin-top: 50px;
+}
+
+.orellaesquerra{
+  width: 100px;
+  height: 200px;
+  background-color: #ECBC9F;
+  position: absolute;
+  top: 500px;
+  left: 250px;
+  border-radius: 50% 30px 50% 50%;
+  transform: rotate(-10deg);
+  z-index: -1000000000000000;
+}
+
+.pal{
+  position: absolute;
+  width: 100px;
+  height: 10px;
+  background-color: #df8245;
+  border-radius: 0 0 0 80%;
+  transform: rotate(75deg);
+  top: 95px;
+  box-shadow: 2px 4px 10px #df8245;
+}
+
+.orelladreta{
+  width: 100px;
+  height: 200px;
+  background-color: #ECBC9F;
+  position: absolute;
+  top: 500px;
+  left: 863px;
+  border-radius: 50% 30px 50% 50%;
+  transform: rotate(10deg) rotateY(180deg);
+  z-index: -1000000000000000;
+}
+
+
+.superior{
+  width: 130px;
+  height: 10px;
+  background-color: black;
+  position: absolute;
+  top: 0px;
+  left: -15px;
+  margin-left: 226px;
+  z-index: 1000000000;
+}
+
+.inferior{
+  width: 77px;
+  height: 11px;
+  background-color: black;
+  position: absolute;
+  top: 40px;
+  left: 0px;
+  margin-left: 250px;
+}
+
+.vidres{
+  position: relative;
+}
+
+.finestres{
+  position: absolute;
+  top: 420px;
+  left: 320px;
+  z-index: 10000000000000000000;
+}
+
+.finestres:hover{
+  filter: opacity(0);
+}
+
+.vidreu{
+  width: 250px;
+  height: 200px;
+  background-color: black;
+  border-radius: 60px 160px 120px 180px;
+  float: left;
+  margin-left: 300px;
+}
+
+.vidrepetit{
+  position: relative;
+  top: 10px;
+  left: 10px;
+  width: 230px;
+  height: 180px;
+  background-color: #9CEEFC;
+  border-radius: 60px 160px 120px 180px;
+  background-image: url(https://www.gifss.com/cuerpo-humano/ojos/images/gif-ojos-21.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 190px;
+  filter: opacity(70%);
+  filter: hue-rotate(250deg);
+}
+
+.lluentor{
+  width: 100px;
+  height: 30px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  margin: 50px 0 0 40px;
+  filter: opacity(50%);
+}
+
+.b1{
+  margin: 50px 0 0 40px;
+  transform: rotate(-45deg);
+}
+
+.b2{
+  margin: 50px 0 0 40px;
+  transform: rotate(45deg);
+}
+
+.vidregran{
+  position: relative;
+  top: 10px;
+  left: 10px;
+  width: 230px;
+  height: 180px;
+  background-color: #9CEEFC;
+  border-radius: 60px 160px 120px 180px;
+  background-image: url(https://www.gifss.com/cuerpo-humano/ojos/images/gif-ojos-21.gif);
+  background-repeat: no-repeat;
+  background-size: 190px;
+  filter: opacity(70%);
+  filter: hue-rotate(250deg);
+}
+
+.vidredos{
+  width: 250px;
+  height: 200px;
+  background-color: black;
+  border-radius: 60px 160px 120px 180px;
+  transform: rotateY(180deg);
+}
+
+.nas{
+  position: relative;
+  top: 10px;
+  left: 10px;
+  z-index: 100000000;
+}
+
+.centre{
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  background-color: #ECBC9F;
+  top: 350px;
+  left: 250px;
+  border-radius: 50%;
+  z-index: 10000;
+  box-shadow: #dead92 0px -8px 28px;
+}
+
+.blancor{
+  width: 40px;
+  height: 40px;
+  background-image: linear-gradient(white, #ECBC9F);
+  margin: 11px 0 0 28px;
+  border-radius: 50%;
+  filter: opacity(35%);
+}
+
+.foratu{
+  position: absolute;
+  background-color: #dead92;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  top: 390px;
+  left: 230px;
+}
+
+.foratdos{
+  position: absolute;
+  background-color: #dead92;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  top: 390px;
+  left: 310px;
+  z-index: 100;
+}
+
+.cabell{
+  position: absolute;
+}
+
+.primercabell{
+  width: 250px;
+  height: 100px;
+  top: 110px;
+  left: 380px;
+  border-radius: 50%;
+  border: solid 200px #43260a;
+  border-bottom-color: transparent;
+  border-right-color: transparent;
+  transform: rotate(45deg);
+  z-index: -1;
+}
+
+.segoncabell{
+  width: 60px;
+  height: 100px;
+  border-radius: 50%;
+  border: solid 100px #43260a;
+  top: 200px;
+  left: 220px;
+  z-index: -500000000;
+}
+
+.tercercabell{
+  background-color: #43260a;
+  width: 440px;
+  height: 120px;
+  top: 10px;
+  left: 40px;
+  margin: 250px;
+  z-index: -1000;
+}
+
+/* ------Barba------------*/
+
+.bigoti_esq{
+  position: absolute;
+  width: 150px;
+  height: 30px;
+  background-color: #2f1b19;
+  top: 750px;
+  left: 450px;
+  transform: rotate(-30deg);
+}
+
+.bigoti_dre{
+  position: absolute;
+  width: 150px;
+  height: 30px;
+  background-color: #2f1b19;
+  top: 750px;
+  left: 610px;
+  transform: rotate(30deg);
+}
+
+.peri_esq{
+  position: absolute;
+  width: 150px;
+  height: 30px;
+  background-color: #2f1b19;
+  top: 840px;
+  left: 400px;
+  transform: rotate(90deg);
+}
+
+.peri_dre{
+  position: absolute;
+  width: 150px;
+  height: 30px;
+  background-color: #2f1b19;
+  top: 840px;
+  left: 665px;
+  transform: rotate(90deg);
+}
+
+.barba_esq{
+  position: absolute;
+  width: 500px;
+  height: 100px;
+  background-color: #2f1b19;
+  top: 890px;
+  left: 200px;
+  transform: rotate(45deg);
+}
+
+.barba_dre{
+  position: absolute;
+  width: 500px;
+  height: 100px;
+  background-color: #2f1b19;
+  top: 890px;
+  left: 515px;
+  transform: rotate(-45deg);
+}
+
+.blanca{
+  position: absolute;
+  width: 100px;
+  height: 150px;
+  background-color: white;
+
+}
+
+.f1{
+  top: 728px;
+  left: 208px;
+  border-radius: 0 0 30% 0;
+}
+
+.f2{
+  top: 728px;
+  left: 908px;
+  border-radius: 0 0 0 30%;
+}
+
+.f3{
+  top: 1100px;
+  left: 480px;
+  transform: rotate(30deg);
+}
+
+.f4{
+  top: 1100px;
+  left: 635px;
+  transform: rotate(-30deg);
+  background-color: white;
+}
+
+/* ------Boca ------------*/
+.boca{
+  position: relative;
+  top: 220px;
+}
+
+.boca .llavi_ext{
+  margin: 0 auto;
+  border-radius: 50%;
+  width: 190px;
+  height: 120px;
+  background-color: #ea899a;
+  overflow: hidden;
+}
+
+.boca .llavi_int {
+  margin: 10px;
+  width: 170px;
+  height: 100px;
+  background-color: ;
+  background-image: linear-gradient(#c76a7b, #804751, #5E353D);
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+/* ------Boca: Dentadura------------*/
+
+.dentadura{
+  margin: 15px 35px
+}
+
+.dentadura .dents{
+  position: relative;
+  background-color: white;
+  width: 30px;
+  height: 40px;
+  border-radius: 50% 50% 10% 10%;
+  z-index:1000;
+  float: left;
+}
+
+.dentadura .ullal {
+  width: 20px;
+  height: 35px;
+}
+
+.dentadura .d1{
+  top: 0px;
+  left: 0px;
+}
+
+.dentadura .d2{
+  top: 0px;
+  left: 0px;
+}
+
+.dentadura .d3{
+  top: 0px;
+  left: 0px;
+}
+
+.dentadura .d4{
+  top: 0px;
+  left: 0px;
+}
+
+/* ------Perilleta------------*/
+.perilleta{
+  float: left;
+  margin: 10px 0 0 260px;
+  border-top: solid 90px black;
+  border-right: solid 40px transparent;
+  border-left: solid 40px transparent;
+  border-bottom: solid 70px transparent;
+  border-radius: 20% 20% 0 0;
+  filter: opacity(20%);
+
+}
+
+/* ------Monstre------------*/
+
+.monstre{
+  width: 50px;
+  height: 90px;
+  background-color: #48d1cc;
+  z-index: -99999999999999999999999999999999999999999999999999999999999999999;
+  border-radius: 50px 50px 35px 35px;
+  animation-name: monstre;
+  animation-duration: 15s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  filter: opacity(10%);
+}
+
+.um1{
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 50%;
+  margin-left: 5px;
+  margin-top: 20px;
+  transform: translateY(10px)
+}
+
+.um2{
+  width: 20px;
+  height: 20px;
+  background-color: purple;
+  border-radius: 50%;
+  margin-top: 20px;
+  transform: translateY(10px) translateX(10px);
+}
+
+.bm1{
+  width: 28px;
+  height: 5px;
+  background-color: white;
+  margin: 20px 0 0 10px;
+}
+
+@keyframes monstre{
+ 0%{transform: translateY(10px) translateX(10px);}
+ 20%{transform: translateY(-800px) translateX(0px);}
+ 45%{transform: translateY(-800px) translateX(1000px);}
+ 65%{transform: translateY(-600px) translateX(900px);}
+ 80%{transform: translateY(-400px) translateX(1000px);}
+ 90%{transform: translateY(-100px) translateX(900px);}
+ 100%{transform: translateY(10px) translateX(10px);}
+}
+
+/* ------Braç------------*/
+.braç{
+  margin: -200px 0 0 100px;
+  transform: rotate(30deg);
+}
+
+.metacarpi{
+  position: relative;
+  width: 60px;
+  height: 130px;
+  background-color: #ECBC9F;
+  transform: rotate(40deg);
+  top: 90px;
+  left: 30px;
+  border-radius: 200px 800px 0 0;
+  animation-name: dit;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  box-shadow: 4px 0 8px #342720;
+}
+
+@keyframes dit {
+  0%{transform-origin: bottom; transform: rotate(0deg);}
+  50%{transform-origin: bottom; transform: rotate(30deg);}
+  99%{transform-origin: bottom; transform: rotate(0deg);}
+  100%{transform-origin: bottom; transform: rotate(30deg);}
+}
+
+.ma{
+  width: 180px;
+  height: 200px;
+  background-color: #ECBC9F;
+  border-radius: 60px 80% 0 0;
+}
+
+.dit{
+  position: relative;
+  width: 65px;
+  height: 170px;
+  background-color: #ECBC9F;
+  border-radius: 80px 90px 0 0;
+  transform: rotate(10deg);
+  top: 50px;
+  left: 18px;
+}
+
+.avantbraç{
+  width: 200px;
+  height: 500px;
+  background-image: url(https://i.gifer.com/SBMP.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius:  0 17% 0 0;
+}
+/*
+.agujero{
+  width: 300px;
+  height: 150px;
+  background-color: black;
+  top: 480px;
+  left: 200px;
+  border-radius: 20% 50% 60% 80%;
+  z-index: 99999990000000000000000000;
+}
+
+.pomulos{
+  width: ;
+  height: ;
+  border-radius: 50%;
+  position: absolute;
+  top: 600px;
+  left: 510px;
+  border: solid 200px red;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  transform: rotateZ(90deg) rotate(90deg);
+}

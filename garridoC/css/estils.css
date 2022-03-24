@@ -1,0 +1,535 @@
+body{
+  background-image: url(../img/garrid.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: azure;
+}
+
+.cap{
+  position: relative;
+  top:100px;
+  width: 345px;
+  height: 580px;
+  background: pink;
+  opacity: 0.65;
+  margin: 0 auto;
+  border-radius:34% 33% 47% 53% / 50% 42% 58% 59% ;
+  box-shadow: 2.5px 0.5px 010px 10px black;
+}
+.gafas{
+  width: 355px;
+  height: 80px;
+  background: ;
+  opacity: 0,5;
+  position: absolute;
+  top: 210px;
+  z-index: 9999999999999999;
+}
+.gafas:hover{
+    display:none;
+}
+.gafas .izq{
+  width:120px;
+  height: 95px;
+  border-radius: 10% 40% 60% 50%;
+  border: 10px solid blue;
+  position: relative;
+  display: inline-block;
+  left: 30px;
+  background: rgba(0, 76, 153, 0.6)
+}
+.gafas .dcha{
+  width:120px;
+  height: 95px;
+  border-radius: 10% 40% 60% 50%;
+  border: 10px solid blue;
+  position: relative;
+  display: inline-block;
+  left: 50px;
+  transform: scaleX(-1);
+  background: rgba(0, 76, 153, 0.6);
+}
+
+.gafas .centro{
+  width:30px;
+  height: 15px;
+  position: relative;
+  display: inline-block;
+  left: -120px;
+  top: -50px;
+  background: blue;
+  z-index: 888888888888;
+}
+.gafas .pat_izq{
+  width:40px;
+  height: 15px;
+  position: relative;
+  display: inline-block;
+  left: 0px;
+  top: -85px;
+  background: blue;
+}
+.gafas .pat_dcha{
+  width:40px;
+  height: 15px;
+  position: relative;
+  display: inline-block;
+  left: 280px;
+  top: -85px;
+  background: blue;
+}
+.front{
+  height: 100px;
+  position: relative;
+  top:-400px;
+  display: inline-block;
+
+}
+.front .arruga1{
+  width: 100px;
+  height: 1px;
+  background: black;
+  display: inline-block;
+  position:absolute;
+  z-index: 100;
+  top: 40px;
+  left:130px;
+  border-radius: 50%;
+  box-shadow: 0.2px 0px 0px 1px grey;
+  }
+
+
+.flequi{
+  width: 350px;
+  height: 80px;
+  position: relative;
+  top:-70px;
+}
+
+.flequi .primer{
+  clip-path: polygon(47% 0, 49% 0, 100% 73%, 0 74%);
+  height:100px;
+  width: 100px;
+  background: brown;
+  position:relative;
+  z-index:2000px;
+  transform: rotateX(10deg);
+  display: inline-block;
+}
+
+.flequi .segon{
+  clip-path: polygon(47% 0, 49% 0, 100% 73%, 0 74%);
+  height:150px;
+  width: 100px;
+  background: brown;
+  position:relative;
+  z-index:2001px;
+  left:-70px;
+  transform: rotateX(25deg);
+  display: inline-block;
+}
+.flequi .tercer{
+  clip-path: polygon(47% 0, 49% 0, 100% 73%, 0 74%);
+  height:180px;
+  width: 100px;
+  background: brown;
+  position:relative;
+  left:-140px;
+  transform: rotateX(45deg);
+  display: inline-block;
+}
+.flequi .quarta{
+  clip-path: polygon(47% 0, 49% 0, 100% 73%, 0 74%);
+  height:150px;
+  width: 100px;
+  background: brown;
+  position:relative;
+  left:0px;
+  top:-160px;
+  display: inline-block;
+  left:100px;
+}
+.flequi .quinta{
+  clip-path: polygon(47% 0, 49% 0, 100% 73%, 0 74%);
+  height:150px;
+  width: 100px;
+  background: brown;
+  position:relative;
+    top:-170px;display: inline-block;left:30px;
+}
+.flequi .sexta{
+  clip-path: polygon(47% 0, 49% 0, 100% 73%, 0 74%);
+  height:150px;
+  width: 100px;
+  background: brown;
+  position:relative;
+  top:-160px;
+  display: inline-block;
+  left:-35px;
+}
+.flequi .sept{
+  clip-path: polygon(47% 0, 49% 0, 100% 73%, 0 74%);
+  height:150px;
+  width: 100px;
+  background: brown;
+  position:relative;
+  top:-307px;
+  display: inline-block;
+  left:210px;
+}
+.flequi .oct{
+  clip-path: polygon(47% 0, 49% 0, 100% 73%, 0 74%);
+  height:100px;
+  width: 100px;
+  background: brown;
+  position:relative;
+  transform: rotateX(10deg);
+  display: inline-block;
+  top:-310px;
+  left:140px;
+}
+.cabell{
+  height: 120px;
+  width: 355px;
+  background-color: brown;
+  clip-path: polygon(0 55%, 0 35%, 13% 25%, 28% 21%, 40% 20%, 52% 19%, 61% 20%, 71% 20%, 80% 21%, 90% 26%, 97% 34%, 99% 52%, 99% 52%, 89% 50%, 80% 48%, 71% 45%, 59% 45%, 37% 45%, 25% 47%, 13% 50%, 13% 50%);
+  position: relative;
+  top: -45px;
+}
+
+.patilla .esquerra{
+  width: 65px;
+  height: 300px;
+  clip-path: polygon(20% 0%, 64% 0, 54% 100%, 29% 100%);
+  border-radius: 0px 0px 50% 50%;
+  position: relative;
+  background: brown;
+  display: inline-block;
+  left: -18px;
+  top:-110px;
+  z-index: 500000000000000000000001px;
+}
+.patilla .dreta{
+  width: 60px;
+  height: 300px;
+  clip-path: polygon(20% 0%, 64% 0, 54% 100%, 29% 100%);
+  border-radius: 0px 0px 50% 50%;
+  position: relative;
+  background: brown;
+  display: inline-block;
+  left: 238px;
+  top:-110px;
+  transform: scaleX(-1);
+  z-index: 5000000px;
+}
+.celles{
+  position: relative;
+  height: 50px;
+  top: -410px;
+}
+
+.cella_esquerra{
+  height:40px;
+  width: 120px;
+  display: inline-block;
+  border-top:20px solid brown;
+  position: absolute;
+  border-radius: 80%;
+  z-index:99px;
+  background: transparent;
+  top:10px;
+  left: 20px;
+  width: 120px;
+}
+
+.cella_dreta{
+  height:40px;
+  width: 120px;
+  display: inline-block;
+  border-top:20px solid brown;
+  position: absolute;
+  border-radius: 80%;
+  z-index:99px;
+  background: transparent;
+  top:10px;
+  right: 25px;
+  width: 120px;
+}
+.ulls{
+  width: 50;
+  height: 1000px;
+  display: inline-block;
+  position: relative;
+  top:-405px;
+  border-radius: 50%;
+  z-index: 300000;
+}
+
+.blanc{
+  width:40px;
+  height: 40px;
+  border-radius: 50%;
+  background: white;
+  display: inline-block;
+
+}
+.esquerra .blanc{
+  margin-left: 80px;
+  margin-top: -5px;
+}
+.dreta .blanc{
+  margin-left: 152px;
+  margin-top: -18px;
+}
+
+.pupila{
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: black;
+  display: inline-block;
+  margin: 7.5px;
+}
+
+.iris{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color:  brown ;
+  display: inline-block;
+  margin: 5px;
+  z-index: 105px;
+}
+
+.orelles{
+  width: 400px;
+  height: 150px;
+  position:absolute;
+  left: -20px;
+  top: -50px;
+
+}
+
+.orelles .esquerra .pend{
+  width: 23px;
+  height: 23px;
+  box-shadow: 6px 6px 0px 0px grey;
+  position: relative;
+  display: inline-block;
+  z-index: 5000000;
+  border-radius: 50%;
+  top: -55px;
+  left: 260px;
+}
+.orelles .esquerra{
+  z-index:1px;
+}
+
+.orelles .esquerra .orella {
+    display: inline-block;
+    position: relative;
+    width: 60px;
+    height: 140px;
+    clip-path: polygon(0 0, 60% 0, 75% 100%, 16% 100%);
+    background: pink;
+    border-radius: 50%;
+    left:-10px;
+    top:40px;
+    transform: rotate(-5deg);
+    z-index: 1px;
+}
+.orelles .dreta .orella {
+    display: inline-block;
+    position: relative;
+    width: 60px;
+    height: 140px;
+    clip-path: polygon(0 0, 60% 0, 75% 100%, 16% 100%);
+    background: pink;
+    border-radius: 50%;
+    left:346px;
+    top:-100px;
+    transform: rotate(0deg);
+    z-index: 0px;
+    transform: scaleX(-1);
+}
+.orelles  .dreta .ombra {
+  display: inline-block;
+  position: relative;
+  width: 40px;
+  height: 100px;
+  background: ;
+  border-radius: 50%;
+  z-index: 80000;
+  box-shadow: 2.5px 0.5px 1px 0.5px lightcoral;
+  top:-120px;
+  left: 290px;
+}
+.orelles .esquerra .ombra {
+  display: inline-block;
+  position: relative;
+  width: 40px;
+  height: 100px;
+  background: ;
+  border-radius: 50%;
+  z-index: 10;
+  box-shadow: 2.5px 0.5px 1px 0.5px lightcoral;
+  top:25px;
+  left: -60px;
+  transform: scaleX(-1);
+}
+.nas{
+  position: absolute;
+  width: 355px;
+  height: 120px;
+  top: 5px;
+  left:00px;
+  z-index: 100000;
+}
+.nas .linea{
+  width:3px;
+  height: 80px;
+  position: relative;
+  display:inline-block;
+  background: lightcoral;
+  z-index: 20000;
+  top:-40px;
+  left:180px;
+}
+.nas .gros{
+  display: inline-block;
+  position: relative;
+  width: 60px;
+  height: 50px;
+  background:pink ;
+  border-radius: 50px;
+  box-shadow: 2.5px 0.5px 1px 0.5px lightcoral;
+  top: 30px;
+  left: 160px;
+  z-index:999999;
+}
+.nas .peq_izq{
+  display: inline-block;
+  position: relative;
+  width: 40px;
+  height: 30px;
+  border-radius: 50px;
+  box-shadow: 2.5px 0.5px 01px 0.5px lightcoral;
+  top: 40px;
+  left: 125px;
+}
+.nas .peq_dcho{
+  display: inline-block;
+  position: relative;
+  width: 40px;
+  height: 30px;
+    border-radius: 50px;
+  box-shadow: 2.5px 0.5px 01px 0.5px lightcoral;
+  top: 40px;
+  left:30px;
+  transform: scaleX(-1);
+}
+
+.boca{
+  width: 200px;
+  height: 100px;
+  display: inline-block;
+  position: absolute;
+  top:130px;
+  left:90px;
+}
+
+.boca .dents_sup{
+  display: inline-block;
+  position: relative;
+  width: 130px;
+  height: 10px;
+  background:#a93226  ;
+    top: 40px;
+  left: 30px;
+  border-radius: 60% 60% 0 0 ;
+
+  z-index:3000000000000;
+}
+.boca .dents_inf{
+  display: inline-block;
+  position: relative;
+  width: 120px;
+  height: 15px;
+  background:#a93226  ;
+  border-radius:0 0 60% 60%;
+  top: 40px;
+  left: 35px;
+    z-index:300000000000;
+
+}
+.barba{
+  width: 340px;
+  height: 200px;
+  background-color: ;
+  position:relative;
+  display: inline-block;
+  left:-245px;
+  top:120px;
+  border-radius: 0 0 50% 50%;
+}
+
+.barb_i{
+  width: 170px;
+  height: 230px;
+  position:relative;
+  display: inline-block;
+  left:-8px;
+  top:-20px;
+  border-radius: 0% 0% 0% 100%;
+  background-image: linear-gradient(transparent, brown);
+}
+.barb_d{
+  width: 170px;
+  height: 210px;
+  background-color: ;
+  position:relative;
+  display: inline-block;
+  left:162px;
+  top:-234px;
+  border-radius: 0% 0% 100% 0%;
+  background-image: linear-gradient(transparent, brown);
+}
+
+.barba:hover{
+  background: brown;
+  margin-top: 10px;
+}
+.ojera{
+  position: relative;
+  width: 300px;
+  height: 80px;
+  top:-20px;
+  }
+.ojera .izq{
+  z-index: 100px;
+  position: relative;
+  height:40px;
+  display: inline-block;
+  border-top:1px solid black;
+  border-radius: 80%;
+  z-index:99px;
+  background: transparent;
+  top:-410px;
+  left:-200px;
+  width: 90px;
+  transform: rotate(160deg);
+}
+.ojera .dcha{
+  z-index: 100px;
+  position: relative;
+  height:40px;
+  width: 90px;
+  display: inline-block;
+  border-top:1px solid black;
+  border-radius: 80%;
+  z-index:99px;
+  background: transparent;
+  top:-410px;
+  left:-120px;
+    transform: rotate(-160deg);
+  }

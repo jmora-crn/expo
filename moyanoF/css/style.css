@@ -1,0 +1,603 @@
+a:visited {
+  text-decoration: none;
+}
+
+a: {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.contenedor {
+  margin-left: 100px;
+  margin-top: 80px;
+}
+
+/*CARA*/
+
+.cara {
+  float: left;
+  width: 500px;
+  height: 0;
+  margin-top: 0px;
+  margin-left: 75px;
+}
+
+.cara::before {
+  content:'';
+  display: block;
+  width: 30px;
+  height: 450px;
+  background: #FFCEB4;
+  border-radius: 50%;
+  margin-left: 497px;
+  margin-top: 125px;
+  float: left;
+  box-shadow: 4px 0 0;
+}
+
+.cara::after {
+  content:'';
+  display: block;
+  width: 30px;
+  height: 450px;
+  background: #FFCEB4;
+  border-radius: 50%;
+  float: left;
+  margin-left: -530px;
+  margin-top: 125px;
+  box-shadow: -4px 0 0;
+}
+
+.seccionboca::before{
+  content:'';
+  display: block;
+  width: 30px;
+  height: 275px;
+  background: #FFCEB4;
+  border-radius: 50%;
+  margin-left: -104px;
+  margin-top: -238px;
+  box-shadow: -4px 0 0;
+  transform: rotate(-41deg);
+}
+
+.seccionboca::after{
+  content:'';
+  display: block;
+  width: 30px;
+  height: 275px;
+  background: #FFCEB4;
+  border-radius: 50%;
+  margin-left: 224px;
+  margin-top: -250px;
+  box-shadow: 4px 0 0;
+  transform: rotate(41deg);
+}
+
+/*CARA*/
+
+
+/*PELO*/
+
+.peloatras {
+  width: 675px;
+  height: 600px;
+  border-radius: 300px 300px 300px 300px;
+  background: #2E1400;
+  box-shadow: 3px 3px 0,
+              3px -3px 0,
+             -3px -3px 0,
+             -3px 3px 0;
+}
+
+.seccionpelo {
+  width: 512px;
+  height: 250px;
+  background: #FFCEB4;
+  margin-top: 0px;
+  margin-left: 81px;
+  border-radius: 140px 140px 5px 0;
+  clear: both;
+}
+
+.centropelo1 {
+  width: 256px;
+  height: 125px;
+  background: #2E1400;
+  float: left;
+  border-radius: 190px 0 5px 0;
+  box-shadow: -3px -3px 0,
+               3px 3px 0;
+}
+
+.mechon {
+  height: 450px;
+  width: 150px;
+  background: #2E1400;
+  margin-top: -65px;
+  margin-left: -10px;
+  border-radius: 0 0 0 130px;
+  box-shadow: -3px 0 0,
+              -3px 3px 0;
+  transform: rotate(45deg);
+}
+
+.mechon::before {
+  content:'';
+  display: block;
+  width: 100px;
+  height: 50px;
+  background: #2E1400;
+  border-radius: 50%;
+  position: relative;
+  top: -25px;
+  left: 0px;
+  box-shadow: -3px -3px 0,
+              -3px -3px 0;
+}
+
+.mechon::after {
+  content:'';
+  display: block;
+  width: 25px;
+  height: 350px;
+  background: #2E1400;
+  border-radius: 50% 20%;
+  position: relative;
+  left: 131px;
+  top: 50px;
+  box-shadow: 3px 0 0;
+}
+
+.centropelo2 {
+  width: 256px;
+  height: 125px;
+  background: #2E1400;
+  float: left;
+  border-radius: 0 190px 0 5px;
+  box-shadow:  0 3px 0,
+               3px -3px 0;
+}
+
+.mechon2 {
+  height: 450px;
+  width: 150px;
+  background: #2E1400;
+  margin-top: -65px;
+  margin-left: 120px;
+  border-radius: 0 0 130px 0;
+  box-shadow: 3px 0 0,
+              3px 3px 0;
+  transform: rotate(-45deg);
+}
+
+.mechon2::before {
+  content:'';
+  display: block;
+  width: 100px;
+  height: 50px;
+  background: #2E1400;
+  border-radius: 50%;
+  position: relative;
+  top: -25px;
+  left: 50px;
+  box-shadow: 3px -3px 0,
+              3px -3px 0;
+}
+
+.mechon2::after {
+  content:'';
+  display: block;
+  width: 25px;
+  height: 350px;
+  background: #2E1400;
+  border-radius: 20% 50%;
+  position: relative;
+  left: -5px;
+  top: 50px;
+  box-shadow: -3px 0 0;
+}
+
+/*PELO*/
+
+
+/*CEJAS*/
+
+.seccioncejas {
+  float: left;
+  width: 500px;
+  height: 50px;
+  background: #FFCEB4;
+  margin-top: 0px;
+  margin-left: 87px;
+  clear: both;
+}
+
+.cejas{
+  float: left;
+  width: 250px;
+  height: 20px;
+  background: #FFCEB4;
+}
+
+.contornoceja1 {
+  float: right;
+  width: 140px;
+  height: 20px;
+  background: #2E1400;
+  border-radius: 10% 20% 5% 0;
+  margin-right: 50px;
+  transform: rotate(10deg);
+  border: 3px solid black;
+  border-bottom: 1px solid black;
+}
+
+.contornoceja1:hover {
+  transition: 1s;
+  margin-top: -25px;
+}
+
+.contornoceja1::after {
+  content:'';
+  display: block;
+  width: 0;
+  height: 0;
+  border-left: 52px solid transparent;
+  border-bottom: 21px solid black;
+  margin-left: -51px;
+  margin-top: -2px;
+}
+
+.ceja1 {
+  float: right;
+  width: 140px;
+  height: 20px;
+  background: #2E1400;
+  border-radius: 10% 20% 5% 0;
+}
+
+.ceja1::before {
+  content:'';
+  display: block;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-bottom: 21px solid #2E1400;
+  margin-left: -48px;
+}
+
+.ceja1::after {
+  content:'';
+  display: block;
+  width: 190px;
+  height: 3px;
+  background: black;
+  border-radius: 50% 50% 0 0;
+  margin-top: -3px;
+  margin-left: -50px;
+}
+
+.contornoceja2 {
+    float: left;
+    width: 140px;
+    height: 20px;
+    background: #2E1400;
+    border-radius: 20% 10% 0 5%;
+    margin-left: 50px;
+    transform: rotate(-10deg);
+    border: 3px solid black;
+    border-bottom: 1px solid black;
+}
+
+.contornoceja2:hover {
+  transition: 1s;
+  margin-top: -25px;
+}
+
+.contornoceja2::after {
+  content:'';
+  display: block;
+  width: 0;
+  height: 0;
+  border-right: 52px solid transparent;
+  border-bottom: 21px solid black;
+  margin-left: 139px;
+  margin-top: -2px;
+}
+
+.ceja2 {
+  float: left;
+  width: 140px;
+  height: 20px;
+  background: #2E1400;
+  border-radius: 20% 10% 0 5%;
+}
+
+.ceja2::before {
+  content:'';
+  display: block;
+  width: 0;
+  height: 0;
+  border-right: 0;
+  border-top: 0;
+  border-right: 50px solid transparent;
+  border-bottom: 21px solid #2E1400;
+  margin-left: 137px;
+}
+
+.ceja2::after {
+  content:'';
+  display: block;
+  width: 190px;
+  height: 3px;
+  background: black;
+  border-radius: 50% 50% 0 0;
+  margin-top: -3px;
+}
+
+/*CEJAS*/
+
+
+/*OJOS*/
+
+.seccionojos {
+  width: 500px;
+  height: 70px;
+  background: #FFCEB4;
+  margin-top: 0px;
+  margin-left: 87px;
+  clear: both;
+}
+
+.ojo1 {
+  width: 140px;
+  height: 70px;
+  border-radius: 5px 90% 20% 50% / 5px 100% 5px 100%;
+  background: white;
+  float: left;
+  margin-left: 42px;
+  box-shadow: -1px -4px 0 1px,
+              -2px 2px 0 1px;
+  overflow: hidden;
+}
+
+.ojo2 {
+  width: 140px;
+  height: 60px;
+  border-radius: ;
+  float: left;
+}
+
+.ojo3 {
+  width: 140px;
+  height: 70px;
+  border-radius: 90% 20% 50% 5px / 100% 5px 100% 5px;
+  background: white;
+  float: left;
+  box-shadow: 1px -4px 0 1px,
+              2px 2px 0 1px;
+  overflow: hidden;
+}
+
+.iris {
+  width: 66px;
+  height: 66px;
+  background: #261000;
+  border-radius: 50%;
+  margin-left: 36px;
+  margin-top: 4px;
+  box-shadow: -2px -2px 0,
+               2px 2px 0,
+              -2px 2px 0,
+               2px -2px 0,
+               3px 0 0,
+              -3px 0 0;
+}
+
+.iris:hover {
+  transition: 1.5s;
+  margin-top: -65px;
+}
+
+.pupila{
+  width: 22px;
+  height: 22px;
+  background: black;
+  border-radius: 50%;
+  float: left;
+  margin: 22px;
+}
+
+/*OJOS*/
+
+
+/*NARIZ*/
+
+.seccionnariz {
+  width: 500px;
+  height: 195px;
+  background: #FFCEB4;
+  margin-top: 0px;
+  margin-left: 87px;
+}
+
+.nariz  {
+  margin-left: 150px;
+}
+
+.lunaun {
+  height: 110px;
+  width: 30px;
+  box-shadow: 3px 0px 0;
+  border-radius: 50%;
+  float:left;
+  margin-left: 50px;
+}
+
+.lunados {
+  height: 110px;
+  width: 30px;
+  box-shadow: -3px 0px 0;
+  border-radius: 50%;
+  float:left;
+  margin-left: 50px;
+}
+
+.lunatres {
+  height: 40px;
+  width: 30px;
+  box-shadow: -3px 0px 0;
+  border-radius: 50%;
+  float:left;
+  margin-left: 45px;
+  margin-top: 5px;
+  clear:both;
+}
+
+.lunaquatre {
+  height: 20px;
+  width: 30px;
+  box-shadow: 0px -3px 0;
+  border-radius: 50%;
+  float:left;
+  margin-left: -15px;
+  margin-top: 35px;
+}
+
+.lunacinc {
+  height: 20px;
+  width: 30px;
+  background: #FFCEB4;
+  box-shadow: 0px 3px 0;
+  border-radius: 50%;
+  float:left;
+  margin-top: 30px;
+}
+
+.lunasis {
+  height: 20px;
+  width: 30px;
+  box-shadow: 0px -3px 0;
+  border-radius: 50%;
+  float:left;
+  margin-left: 0px;
+  margin-top: 35px;
+}
+
+.lunaset {
+  height: 40px;
+  width: 30px;
+  box-shadow: 3px 0px 0;
+  border-radius: 50%;
+  float:left;
+  margin-left: -15px;
+  margin-top: 5px;
+}
+
+.lunacinc::before {
+  content:'';
+  display: block;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  margin-top: 5px;
+  box-shadow: 4px -1px 0,
+             -4px -1px 0,
+              0px -4px 0;
+}
+
+.lunacinc::after {
+  content:'';
+  display: block;
+  height: 20px;
+  width: 30px;
+  border-radius: 50%;
+  margin-top: -35px;
+  background: #FFCEB4;
+}
+
+.lunaquatre::before {
+  content:'';
+  display: block;
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  margin-top: 22px;
+  margin-left: 32px;
+  background: black;
+}
+
+.lunaquatre::after {
+  content:'';
+  display: block;
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  margin-top: -8px;
+  margin-left: 50px;
+  background: black;
+}
+
+/*NARIZ*/
+
+
+/*boca*/
+
+.seccionboca {
+  width: 150px;
+  height: 0px;
+  border-right: 175px solid transparent;
+  border-left: 175px solid transparent;
+  border-top: 200px solid #FFCEB4;
+  margin-left: 87px;
+}
+
+.boca{
+    margin-top: -200px;
+    margin-left: 6px;
+    height: 40px;
+}
+
+.labiosuperior {
+  width: 150px;
+  height: 10px;
+  border-radius: 50%;
+  box-shadow: 0 -3px 0 black;
+  margin-top: 10px;
+}
+
+.labiosuperior:hover {
+  transition: 0.40s;
+  background: darkred;
+  height: 40px;
+  border-radius: 15% 15% 50% 50%;
+  box-shadow: 0 1px 0 black,
+   0 -3px 0 black,
+   2px 1px 0 black,
+   -2px 1px 0 black,
+   1px -2px 0 black,
+   -1px -2px 0 black,
+   2px -3px 0 black,
+   -2px -3px 0 black;
+}
+
+.labioinferior {
+  width: 100px;
+  height: 15px;
+  border-radius: 50%;
+  box-shadow: 0 3px 0;
+  margin-left: 23px;
+}
+
+.barbilla {
+  width: 160px;
+  height: 25px;
+  background: #FFCEB4;
+  margin-top: 100px;
+  margin-left: -5px;
+  border-radius: 50%;
+  box-shadow: 0 4px 0;
+}

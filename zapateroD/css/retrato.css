@@ -1,0 +1,373 @@
+body {
+  position: relative;
+}
+.pelo_detras {
+  width: 600px;
+  height: 600px;
+  background-color: rgb(97, 71, 32);
+  border-radius: 50% 50% 100% 100%;
+  position: relative;
+  margin: 0 auto;
+  position: relative;
+  top: 125px;
+}
+.cabeza {
+  width:550px;
+  height: 700px;
+  background-color: rgb(251, 216, 157);
+  border-radius: 50% 50% 50% 50%;
+  position: relative;
+  margin: 0 auto;
+  margin-top: -500px;
+}
+.cabello {
+  height: 200px;
+  background-color:rgb(102, 75, 36);
+  border-radius:80% 80% 0 0;
+}
+.frente {
+  height: 75px;
+  background-color:rgb(102, 75, 36);
+
+}
+
+.ceja_izquierda {
+  float: left;
+  margin-left: 60px;
+}
+.ceja_derecha {
+  float: right;
+  margin-right: 60px;
+}
+.cuadro_izquierda {
+  width: 150px;
+  height: 55px;
+  background-color: rgb(78, 58, 29);
+  border-radius: 70% 10% 0 0;
+  margin-top: -15px;
+}
+.cuadro_derecha {
+  width: 150px;
+  height: 55px;
+  background-color: rgb(78, 58, 29);
+  border-radius: 10% 70% 0 0;
+  margin-top: -15px;
+}
+.circulo_izquierdo {
+  width: 150px;
+  height: 50px;
+  border-radius: 50% 0 50% 50%;
+  background-color: rgb(251, 216, 157);
+  margin-top: -25px;
+}
+.circulo_derecho {
+  width: 150px;
+  height: 50px;
+  border-radius: 0 50% 50% 50%;
+  background-color: rgb(251, 216, 157);
+  margin-top: -25px;
+}
+.ojos {
+    position: relative;
+}
+.ojo_izquierdo {
+  width: 150px;
+  height: 100px;
+  background-color: rgb(195, 165, 114);
+  float: left;
+  margin-left: 60px;
+  margin-top: -40px;
+  display: inline-block;
+  border-radius: 50%;
+}
+.ojo_derecho {
+  width: 150px;
+  height: 100px;
+  background-color: rgb(195, 165, 114);
+  float: right;
+  margin-right: 60px;
+  margin-top: -40px;
+  display: inline-block;
+  border-radius: 50%
+}
+.parpado {
+  height: 20px;
+}
+.pestana_izquierda {
+  height: 40px;
+  background-color: black;
+  border-radius: 90% 60% 20% 20%;
+  margin-top: 20px
+}
+.pestana_derecha {
+  height: 40px;
+  background-color: black;
+  border-radius: 60% 90% 20% 20%;
+  margin-top: 20px
+}
+.blanco_izquierda {
+  height: 65px;
+  background-color: white;;
+  margin-top: -35px;
+  border-radius: 100% 60% 90% 70%;
+  overflow: hidden;
+}
+.blanco_derecha {
+  height: 65px;
+  background-color: white;;
+  margin-top: -35px;
+  border-radius: 60% 100% 70% 90%;
+  overflow: hidden;
+}
+.iris {
+  width: 60px;
+  height: 60px;
+  background: radial-gradient(circle, black,rgb(107, 73, 30));
+  border-radius: 50%;
+  margin: 0 auto;
+}
+.pupila {
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  border-radius: 50%;
+  position: relative;
+  left: 15px;
+  top: 15px;
+}
+.lunar_superior {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: black;
+  margin-left: 45px;
+  margin-top: -5px;
+  clear: both;
+}
+.orejas {
+  position: relative;
+}
+.parte_superior_izquierda {
+  width: 40px;
+  height: 120px;
+  background-color: rgb(242, 209, 153);
+  border-radius: 20% 90% 0 80%;
+  margin-top: -90px;
+  margin-left: -35px;
+}
+
+.parte_inferior_izquierda {
+  width: 30px;
+  height: 50px;
+  background-color: rgb(242, 209, 153);
+  border-radius: 70% 0 100% 20%;
+  margin-top: -10px;
+  margin-left: -25px;
+}
+.parte_superior_derecha {
+  width: 40px;
+  height: 120px;
+  background-color: rgb(242, 209, 153);
+  border-radius: 90% 20% 80% 0;
+  margin-top: -180px;
+  margin-left: 545px;
+}
+.parte_inferior_derecha {
+  width: 30px;
+  height: 50px;
+  background-color: rgb(242, 209, 153);
+  border-radius: 0 70% 20% 100%;
+  margin-top: -10px;;
+  margin-left: 545px;
+}
+.patilla {
+  position: relative;
+}
+.patilla_izq {
+  width: 30px;
+  height: 150px;
+  background-color: rgb(102, 75, 36);
+  border-radius: 70% 0 0 70%;
+  margin-top: -200px;
+  margin-left: -15px;
+}
+.patilla_der {
+  width: 30px;
+  height: 150px;
+  background-color: rgb(102, 75, 36);
+  border-radius: 0 70% 70% 0;
+  margin-top: -150px;
+  margin-left: 535px;
+}
+.tabique {
+  position: relative;
+  left: 290px;
+  bottom: 80px;
+  width: 2px;
+  height: 125px;
+  transform: rotate(-4deg);
+  border-radius: 50%;
+  background-color: rgb(87, 60, 9);
+
+}
+.ala_der {
+  position: relative;
+  left: 290px;
+  top: -100px;
+  width: 30px;
+  height: 25px;
+  background-color: rgb(251, 216, 157);
+  border: solid black 2px;
+  border-radius: 40% 70% 50% 50%;
+  border-left: 0px;
+  border-top: 0px;
+}
+.centro {
+  position: relative;
+  left: 250px;
+  top: -130px;
+  width: 50px;
+  height: 40px;
+  background-color: rgb(251, 216, 157);
+  border: solid black 2px;
+  border-radius: 50% 50% 50% 50%;
+  border-left: 0px;
+  border-top: 0px;
+  border-right: 0px;
+}
+.ala_izq {
+  position: relative;
+  left: 227px;
+  top: -72px;
+  width: 30px;
+  height: 25px;
+  background-color: rgb(251, 216, 157);
+  border: solid black 2px;
+  border-radius: 70% 40% 50% 50%;
+  border-right: 0px;
+  border-top: 0px;
+}
+.lunar_inferior {
+  width: 7.5px;
+  height: 7.5px;
+  border-radius: 50%;
+  background-color: black;
+  margin-left: 420px;
+  margin-top: -120px;
+
+}
+.bigote_izquierda {
+  float: left;
+  margin-left: 150px;
+  margin-top: 105px;
+}
+.bigote_derecha {
+  float: right;
+  margin-right: 150px;
+  margin-top: 105px;
+}
+.cuadro_bigote_izquierda {
+  width: 115px;
+  height: 55px;
+  background-color: rgba(64, 49, 28, 0.7);
+  border-radius: 90% 10% 0 0;
+  margin-top: -15px;
+}
+.circulo_bigote_izquierdo {
+  width: 115px;
+  height: 50px;
+  border-radius: 90% 0 50% 50%;
+  background-color: rgb(251, 216, 157);
+  margin-top: -25px;
+}
+.cuadro_bigote_derecha {
+  width: 115px;
+  height: 55px;
+  background-color: rgba(64, 49, 28, 0.7);
+  border-radius: 10% 90% 0 0;
+  margin-top: -15px;
+}
+.circulo_bigote_derecho {
+  width: 115px;
+  height: 50px;
+  border-radius: 0 90% 50% 50%;
+  background-color: rgb(251, 216, 157);
+  margin-top: -25px;
+}
+.boca {
+  position: relative;
+  margin-top: 25px;
+  margin-left: 190px;
+  background-color: rgb(247, 136, 106);
+  width: 175px;
+  height: 40px;
+  border-radius: 200% 200% 200% 200%;
+}
+.labio_superior {
+  position: relative;
+  margin-top: -50px;
+  margin-left: 265px;
+  background-color: rgb(251, 216, 157);
+  width: 20px;
+  height: 20px;
+  transform: rotate(45deg);
+  border-radius: 0 0 50% 0;
+
+
+}
+.linea {
+  position:relative;
+  top: 20px;
+  background-color: black;
+  opacity: 0.8;
+  height: 2px;
+}
+.barba {
+  position: relative;
+  top: -90px;
+  left: 113px;
+}
+.carne_barba {
+  width:335px;
+  height: 125px;
+  background-color: rgb(251, 216, 157);
+  border-radius: 90% 90% 55% 55%;
+  position: absolute;
+  top: -10px;
+  clear: both;
+  left: -5px;
+}
+.oscuro_barba {
+  width:325px;
+  height: 170px;
+  background-color: rgba(85, 68, 39, 0.9);
+  border-radius: 90% 90% 90% 90%;
+  position: absolute;
+  top: -10px;
+  clear: both;
+}
+.iris{
+  animation-name: mover;
+  animation-duration: 2.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  transform-origin: center;
+}
+
+@keyframes mover {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(20px);
+  }
+  50% {
+    transform: translate(0px);
+  }
+  75% {
+    transform: translateX(-20px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}

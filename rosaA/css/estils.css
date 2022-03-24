@@ -1,0 +1,403 @@
+body{
+
+  background-repeat: no-repeat;
+}
+
+*{
+  position: relative;
+}
+
+.cap{
+  width: 400px;
+  height: 580px;
+  background-color: #fdddca;
+  margin: 0 auto;
+  border-radius: 300px 300px 450px 450px;
+  position: relative;
+  top: 50px;
+
+}
+
+
+.cabell{
+height: 160px;
+background-color: black;
+border-radius: 25%;
+}
+
+.patilla_esq{
+height: 110px;
+width: 30px;
+background-color: black;
+border-radius:0 0 30% 0;
+position: relative;
+top: -40px;
+}
+
+.patilla_dre{
+  height: 110px;
+  width: 30px;
+  background-color: black;
+  border-radius:0 0 0 30%;
+  position: relative;
+  top: -150px;
+  float: right;
+}
+
+.front{
+  height: 70px;
+  width: 340px;
+  background-color: ;
+  margin: 0 auto;
+  position: relative;
+  top: -115px;
+}
+
+.celles{
+margin-left: 60px;
+margin-right: 60px;
+position: relative;
+top: -100px;
+}
+
+.cella_esq{
+  height: 20px;
+  width: 90px;
+  background-color: black;
+  border-radius: 50% 75%;
+  float: left;
+}
+
+.cella_esq:hover{
+  position: relative;
+  top: -20px;
+}
+
+.cella_dre{
+  height: 20px;
+  width: 90px;
+  background-color: black;
+  border-radius: 75% 50%;
+  float: right;
+}
+
+.cella_dre:hover{
+  position: relative;
+  top: -20px;
+}
+
+.cella_esq:active{
+  background-color: yellow;
+}
+
+.cella_dre:active{
+  background-color: yellow;
+}
+
+.ulls{
+  height: 65px;
+  width: 240px;
+  background-color: ;
+  margin: 0 auto;
+  position: relative;
+  top: -70px;
+}
+
+.ull_esq{
+  height: 50px;
+  width: 60px;
+  background-color: ;
+  position: relative;
+  top: ;
+
+
+}
+
+
+.ull_dre{
+  height: 50px;
+  width: 60px;
+  background-color: ;
+  position: relative;
+  top: -50px;
+  left: 180px;
+
+}
+
+
+.blanc{
+  height: 30px;
+  width: 60px;
+  background-color: white;
+  border-radius: 50%;
+
+
+}
+
+.iris{
+  height: 20px;
+  width: 20px;
+  background-color: #381f04;
+  border-radius: 50%;
+  position: relative;
+  top: 5px;
+  left: 20px;
+}
+
+
+.iris:active{
+  background-color: blue;
+  z-index: 24563;
+}
+
+.pupila{
+  height: 10px;
+  width: 10px;
+  background-color: black;
+  border-radius: 50%;
+  position: relative;
+  top: 5px;
+  left: 5px;
+
+
+}
+
+.orelles{
+width: 450px;
+height: 100px;
+background-color: ;
+position: relative;
+left: -25px;
+top: -120px;
+}
+
+.orella_esq{
+width: 30px;
+height: 90px;
+background-color: #fdddca;
+border-radius: 40px 0 0 80px;
+}
+
+.orella_esq:hover{
+  position: relative;
+  left: 10px;
+}
+
+.orella_esq:active{
+  position: relative;
+  width: 40px;
+  left: -10px;
+}
+
+.orella_dre{
+  float: right;
+  width: 30px;
+  height: 90px;
+  background-color: #fdddca;
+  border-radius: 0 40px 80px 0;
+  position: relative;
+  top: -90px;
+}
+
+.orella_dre:hover{
+  position: relative;
+  left: -10px;
+}
+
+.orella_dre:active{
+  position: relative;
+  width: 40px;
+  left: 10px;
+}
+
+.nas{
+height: 120px;
+width: 80px;
+background-color: ;
+margin: 0 auto;
+position: relative;
+top: -220px;
+}
+
+.tronc{
+  height: 100px;
+  width: 50px;
+  background-color: #fdddca;
+  margin: 0 auto;
+  border-radius: 0 0 30px 20px;
+  border: 1px black solid;
+  border-top: hidden;
+  border-right: hidden;
+  transform: rotate(10deg);
+}
+
+.forat1{
+  height: 18px;
+  width: 10px;
+  background-color: ;
+  border-radius: 30px 20px 30px 20px;
+  border: 1px black solid;
+  border-right: hidden;
+  transform: rotate(45deg);
+  position: relative;
+  top: -22px;
+  left: 42px;
+}
+
+
+
+.boca{
+  height: 50px;
+  width: 150px;
+  background-color: ;
+  position: relative;
+  top: -210px;
+  margin: 0 auto;
+}
+
+.labisup{
+  height: 15px;
+  width: 100px;
+  background-color: pink;
+  margin: 0 auto;
+  border-radius: 20px 20px 5px 5px;
+  border: 1px black solid;
+  position: relative;
+  z-index: 27485;
+}
+
+.labibot{
+  height: 14px;
+  width: 90px;
+  background-color: pink;
+  margin: 0 auto;
+  border-radius: 5px 5px 20px 20px;
+  border: 1px black solid;
+  position: relative;
+  z-index: 27484;
+}
+
+
+
+.labisup:hover{
+  position: relative;
+  top: -5px;
+
+}
+
+.labibot:hover{
+  position: relative;
+  top: 5px;
+
+}
+
+
+.bigote{
+  width: 180px;
+  height: 140px;
+  background-color: ;
+  margin: 0 auto;
+  position: relative;
+  top: -280px;
+  padding-right: 10px;
+}
+
+.bigote1{
+  width: 80px;
+  height: 15px;
+  border-radius:100%;
+  background-color: black;
+  margin: 0 auto;
+  float: left;
+  transform: rotate(-5deg);
+}
+
+.bigote2{
+  width: 80px;
+  height: 15px;
+  border-radius: 100%;
+  background-color: black;
+  margin: 0 auto;
+  float: right;
+  transform: rotate(5deg);
+}
+
+.bigote3{
+  width: 80px;
+  height: 15px;
+  border-radius: 0;
+  background-color: black;
+  float: right;
+  transform: rotate(75deg);
+  position: relative;
+  top: 26px;
+  left: 41px;
+}
+
+.bigote4{
+  width: 80px;
+  height: 15px;
+  border-radius: 0;
+  background-color: black;
+  float: left;
+  transform: rotate(-80deg);
+  position: relative;
+  top: 26px;
+  left: -38px;
+}
+
+.bigote5{
+  width: 80px;
+  height: 15px;
+  border-radius: 0;
+  background-color: black;
+  float: right;
+  transform: rotate(95deg);
+  position: relative;
+  top: 82px;
+  left:47px;
+}
+
+.bigote6{
+  width: 80px;
+  height: 15px;
+  border-radius: 0;
+  background-color: black;
+  float: left;
+  transform: rotate(82deg);
+  position: relative;
+  top: 84px;
+  left: -39px;
+}
+
+.barba{
+ height: 200px;
+ width: 200px;
+ background-color: ;
+ margin: 0 auto;
+ position: relative;
+ top: -400px;
+
+}
+
+.barba1{
+  height: 50px;
+  width: 196px;
+  margin: 0 auto;
+  background-color: black;
+  position: relative;
+  top: 118px;
+  border-radius: 0 0 100% 100%;
+}
+
+.perilla{
+  width: 30px;
+  height: 30px;
+  margin: 0 auto;
+  background-color: black;
+  border-radius:50% 50% 50% 50% / 32% 32% 68% 68%;
+}
+
+.perilla:active{
+  background-color: red;
+}
